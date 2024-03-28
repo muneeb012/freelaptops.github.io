@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #7C7777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    font-family:'Roboto', 'Arial';
+}
+main{
+    width: 650px;
+    background-color: white;
+    /* padding: 20px; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.headtext{
+    text-align: center;
+    background-color: #FF5733;
+    color: white;
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 10px;
+}
+.headp{
+    font-size: 20px;
+}
+header{
+    background-color: white;
+    width: 650px;
+    /* padding: 20px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+header img{
+    width: 650px;
+}
+  .container{
+    padding: 10px;
+ }
+ .mtext{
+    color: #4ab4ff;
+    padding: 20px;
+ }
+ .requiremnts ul li{
+display: block;
+margin: 10px;
+font-weight: bold;
+font-size: 20px;
+ }
+.requiremnts p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+}
+form{
+    padding: 20px;
+}
+form input{
+    width: 600px;
+    height: 30px;
+    padding-left: 10px;
+    border: 2px solid #36a3ec;
+}
+form select{
+    width: 615px;
+    height: 35px;
+    padding-left: 10px;
+    border: 2px solid #36a3ec;
+}
+form select,input:focus{
+    outline: none;
+}
+form label{
+    /* font-weight: bold; */
+    font-size: 18px;
+}
+form #eqution{
+    width: 10px;
+}
+.loginbox{
+    padding: 20px;
+}
+button{
+    width: 600px;
+    padding: 5px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width:694px) {
+    header{
+        width: 300px;
+    }
+    header img{
+        width: 300px;
+    }
+    main{
+        width: 300px;
+    }
+    form input{
+        width: 250px;
+    }
+    form select{
+        width: 264px;
+    }
+    button{
+        width: 250px;
+    }
+    .mtext{
+        text-align: center;
+    }
+}
