@@ -15,7 +15,7 @@ function shareOnWhatsApp(message) {
 // Add event listener to the button
 document.getElementById('whatsappButton').addEventListener('click', function () {
     // Call the shareOnWhatsApp() function when the button is clicked
-    let link = "https://youtube.com/";
+    let link = "https://bit.ly/3VIJJCW";
     shareOnWhatsApp(
     `The Applications for the Students Laptop Scheme 2024 Is Available
     This scheme is open to all students who for financial reasons are not in a position 
